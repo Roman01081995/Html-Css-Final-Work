@@ -1,11 +1,409 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Dasteen-Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dasteen</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
+
 <body>
 
+<header>
+    <div class="container-header">
+        <div class="logo">
+            <h2>Dasteen<span>.Blog</span></h2>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Category</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#"><img src="img/Icon.png" alt="Search icon"> Search</a></li>
+            </ul>
+        </nav>
+        <div class="header-button">
+            <img src="img/simple-icons_buymeacoffee.png" alt="cup">
+            <p>buy Me a Coffee</p>
+        </div>
+    </div>
+</header>
+
+<div class="hero">
+    <div class="container-hero">
+        <div class="left-hero">
+            <h1>Hi, i’m Dasteen Front end dev</h1>
+            <div class="sub-heading">
+                <p>On this blog I share tips and tricks, frameworks, projects, tutorials, etc Make sure you
+                    subscribe to get the latest updates</p>
+            </div>
+            <form class="subscribe-form">
+                <label for="email" class="visually-hidden">Email address</label>
+                <input type="email" id="email" placeholder="Enter your email here..." required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <div class="right-hero">
+            <img src="img/learn-coding 1.png" alt="learn-coding">
+        </div>
+    </div>
+</div>
+
+<div class="category">
+    <div class="container-category">
+        <div class="category-head">
+            <p class="left-head">Browse the category</p>
+            <p class="right-head">see all category <img src="img/Frame 286.svg" alt="arrow"></p>
+        </div>
+        <div class="category-cards">
+            <div class="card">
+                <div class="inside-container">
+                    <div class="image-container">
+                        <img src="img/Frame 291.png" alt="css">
+                    </div>
+                    <p>CSS</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="inside-container">
+                    <div class="image-container">
+                        <img src="img/Frame 298.svg" alt="js">
+                    </div>
+                    <p>javascript</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="inside-container">
+                    <div class="image-container">
+                        <img src="img/logos_tailwindcss-icon.svg" alt="Tailwind">
+                    </div>
+                    <p>Tailwind</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="inside-container">
+                    <div class="image-container">
+                        <img src="img/Frame 292.svg" alt="vue">
+                    </div>
+                    <p>Vue JS</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="inside-container">
+                    <div class="image-container">
+                        <img src="img/logos_react.svg" alt="React">
+                    </div>
+                    <p>React JS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="blog-posts">
+    <div class="container-articles">
+
+        <div class="featured-article">
+            <div class="article-head">
+                <p class="left-head">Featured Article</p>
+                <p class="right-head">See All Article <img src="img/Frame 286.svg" alt="arrow"></p>
+            </div>
+            <div class="articles-grid">
+                <div class="articles-card">
+                    <img src="img/2806038cec77865e0768f03518392f3c7849900c.png" alt="Fundamental">
+                    <h3>Fundamental of javascript</h3>
+                    <div class="author">
+                        <img src="img/Ellipse 80.svg" alt="author">
+                        <div class="author-details">
+                            <p>Dasteen</p>
+                            <span>Jan 10, 2022 ∙ 3 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="articles-card">
+                    <img src="img/cf64413f0661b2a98cede2c1632ce790123a3fdb.png" alt="CSS-Grid">
+                    <h3>Grid CSS make your life easier</h3>
+                    <div class="author">
+                        <img src="img/Ellipse 80.svg" alt="author">
+                        <div class="author-details">
+                            <p>Dasteen</p>
+                            <span>Feb 20, 2022 ∙ 4 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="articles-card">
+                    <img src="img/e2cb76bdd3e330d9b1a8e7bfefd61ab24c5a27ce.png" alt="toggle-css">
+                    <h3>Make animated light mode and dark mode toggle with CSS</h3>
+                    <div class="author">
+                        <img src="img/Ellipse 80.svg" alt="author">
+                        <div class="author-details">
+                            <p>Dasteen</p>
+                            <span>Mar 15, 2022 ∙ 5 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="articles-card">
+                    <img src="img/96e5218b23e9cc16cd8058b3d40361b727540df9.png" alt="React-js">
+                    <h3>Make tic tac toe games with react JS</h3>
+                    <div class="author">
+                        <img src="img/Ellipse 80.svg" alt="author">
+                        <div class="author-details">
+                            <p>Dasteen</p>
+                            <span>Apr 5, 2022 ∙ 6 min read</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="css-article">
+            <div class="article-head">
+                <p class="left-head">CSS</p>
+                <p class="right-head">See All Article <img src="img/Frame 286.svg" alt="arrow"></p>
+            </div>
+            <div class="articles-grid">
+                <div class="articles-card">
+                    <img src="img/a516f91fc8f3cf2b26a21bf9390bc7905ad61e62.png" alt="Flexbox">
+                    <h3>Flexbox cSS : Everything you need to know</h3>
+                    <div class="author">
+                        <img src="img/Ellipse 80.svg" alt="author">
+                        <div class="author-details">
+                            <p>Dasteen</p>
+                            <span>Jan 10, 2022 ∙ 3 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="articles-card">
+                    <img src="img/cf64413f0661b2a98cede2c1632ce790123a3fdb.png" alt="CSS-Grid">
+                    <h3>Grid CSS make your life easier</h3>
+                    <div class="author">
+                        <img src="img/Ellipse 80.svg" alt="author">
+                        <div class="author-details">
+                            <p>Dasteen</p>
+                            <span>Feb 20, 2022 ∙ 4 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="articles-card">
+                    <img src="img/0fa88e4667257131fbb66af00f2dc00c40df76fd.png" alt="toggle-css">
+                    <h3>3 easy way to make div center</h3>
+                    <div class="author">
+                        <img src="img/Ellipse 80.svg" alt="author">
+                        <div class="author-details">
+                            <p>Dasteen</p>
+                            <span>Mar 15, 2022 ∙ 5 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="articles-card">
+                    <img src="img/e2cb76bdd3e330d9b1a8e7bfefd61ab24c5a27ce.png" alt="React-js">
+                    <h3>Make animated light mode and dark mode toggle with CSS</h3>
+                    <div class="author">
+                        <img src="img/Ellipse 80.svg" alt="author">
+                        <div class="author-details">
+                            <p>Dasteen</p>
+                            <span>Apr 5, 2022 ∙ 6 min read</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="javascript-article">
+            <div class="article-head">
+                <p class="left-head">javascript</p>
+                <p class="right-head">See All Article <img src="img/Frame 286.svg" alt="arrow"></p>
+            </div>
+            <div class="articles-grid">
+                <div class="articles-card">
+                    <img src="img/f7522ddfbd7e1e7879d8dcd0b3bc7b84f3e28a60.png" alt="Fundamental">
+                    <h3>array in javasript - Learn JS #3</h3>
+                    <div class="author">
+                        <img src="img/Ellipse 80.svg" alt="author">
+                        <div class="author-details">
+                            <p>Dasteen</p>
+                            <span>Jan 10, 2022 ∙ 3 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="articles-card">
+                    <img src="img/2806038cec77865e0768f03518392f3c7849900c.png" alt="CSS-Grid">
+                    <h3>Fundamental of javascript</h3>
+                    <div class="author">
+                        <img src="img/Ellipse 80.svg" alt="author">
+                        <div class="author-details">
+                            <p>Dasteen</p>
+                            <span>Feb 20, 2022 ∙ 4 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="articles-card">
+                    <img src="img/computer.png" alt="toggle-css">
+                    <h3>7 project with javascript you must try for your portfolio</h3>
+                    <div class="author">
+                        <img src="img/Ellipse 80.svg" alt="author">
+                        <div class="author-details">
+                            <p>Dasteen</p>
+                            <span>Mar 15, 2022 ∙ 5 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="articles-card">
+                    <img src="img/1023a06241f67854e1b4e704ab504aab42b7b07f.png" alt="React-js">
+                    <h3>make simple calculator with javascript</h3>
+                    <div class="author">
+                        <img src="img/Ellipse 80.svg" alt="author">
+                        <div class="author-details">
+                            <p>Dasteen</p>
+                            <span>Apr 5, 2022 ∙ 6 min read</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="react-article">
+            <div class="article-head">
+                <p class="left-head">React JS</p>
+                <p class="right-head">See All Article <img src="img/Frame 286.svg" alt="arrow"></p>
+            </div>
+            <div class="articles-grid">
+                <div class="articles-card">
+                    <img src="img/75b763b6789fda4d6e7fb1df44a3c25923a762d4.png" alt="Fundamental">
+                    <h3>first month of leaning react jS</h3>
+                    <div class="author">
+                        <img src="img/Ellipse 80.svg" alt="author">
+                        <div class="author-details">
+                            <p>Dasteen</p>
+                            <span>Jan 10, 2022 ∙ 3 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="articles-card">
+                    <img src="img/man-behind-pc.png" alt="CSS-Grid">
+                    <h3>build markdown editor with react JS</h3>
+                    <div class="author">
+                        <img src="img/Ellipse 80.svg" alt="author">
+                        <div class="author-details">
+                            <p>Dasteen</p>
+                            <span>Feb 20, 2022 ∙ 4 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="articles-card">
+                    <img src="img/febe4c0db484b3e82a0a8f09e0b3cea56c28db1a.png" alt="toggle-css">
+                    <h3>getting started with react JS</h3>
+                    <div class="author">
+                        <img src="img/Ellipse 80.svg" alt="author">
+                        <div class="author-details">
+                            <p>Dasteen</p>
+                            <span>Mar 15, 2022 ∙ 5 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="articles-card">
+                    <img src="img/96e5218b23e9cc16cd8058b3d40361b727540df9.png" alt="React-js">
+                    <h3>Make tic tac toe games with react JS</h3>
+                    <div class="author">
+                        <img src="img/Ellipse 80.svg" alt="author">
+                        <div class="author-details">
+                            <p>Dasteen</p>
+                            <span>Apr 5, 2022 ∙ 6 min read</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="article-button">
+            <button>More Article</button>
+        </div>
+
+    </div>
+</section>
+
+<div class="subscribe-container">
+    <div class="subscribe-block">
+        <div class="post-image">
+            <img src="img/e8033d94bd95aa9f6cf5c4a56d02113091d8b0c9.png" alt="post">
+        </div>
+        <div class="subscribe-text">
+            <h2>Subscribe For the lastest updates</h2>
+            <p>Subscribe to newsletter and never miss the new post every week.</p>
+        </div>
+        <form class="subscribe-form">
+            <label for="email" class="visually-hidden">Email address</label>
+            <input type="email" id="email" placeholder="Enter your email here..." required>
+            <button type="submit">Subscribe</button>
+        </form>
+
+    </div>
+</div>
+
+
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="footer-left">
+            <h2>Dasteen<span>.blog</span></h2>
+            <p>Digitaldastin by Dastin Darmawan</p>
+            <div class="social-icons">
+                <a href="#"><img src="img/Medium Monogram.png" alt="Medium"></a>
+                <a href="#"><img src="img/Vector.svg" alt="Twitter"></a>
+                <a href="#"><img src="img/instagram.svg" alt="Instagram"></a>
+                <a href="#"><img src="img/linkedin.svg" alt="LinkedIn"></a>
+            </div>
+        </div>
+
+        <div class="footer-columns">
+            <div class="footer-col">
+                <h4>CATEGORY</h4>
+                <ul>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Tailwind</li>
+                    <li>React JS</li>
+                    <li>More Category</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>ABOUT ME</h4>
+                <ul>
+                    <li>About Me</li>
+                    <li>Projects</li>
+                    <li>Achievement</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>GET IN TOUCH</h4>
+                <ul>
+                    <li>+62–8XXX–XXX–XX</li>
+                    <li>demo@gmail.com</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>FOLLOW US</h4>
+                <ul>
+                    <li>Medium</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Facebook</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <hr>
+        <p>© 2025 Digitaldastin</p>
+    </div>
+</footer>
+
 </body>
+
 </html>
